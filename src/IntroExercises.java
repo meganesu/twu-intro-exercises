@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class IntroExercises {
     public static void main(String[] args) {
         // Test triangle exercises
@@ -27,5 +29,14 @@ public class IntroExercises {
         FizzBuzz fb = new FizzBuzz();
 
         System.out.println(fb.fizzBuzz(100));
+
+        // Test prime factors exercise
+        PrimeFactors pf = new PrimeFactors();
+
+        ArrayList<Integer> factors = pf.generate(30);
+        System.out.println(factors);
+
+        factors = pf.generate(49);
+        System.out.println(factors);
     }
 }
