@@ -22,5 +22,10 @@ public class IntroExercises {
         System.out.println(d.diamond(8));
 
         System.out.println(d.diamondName(3, "Megan"));
+
+        // Test fizzbuzz exercise
+        FizzBuzz fb = new FizzBuzz();
+
+        System.out.println(fb.fizzBuzz(100));
     }
 }
