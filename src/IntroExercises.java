@@ -14,5 +14,13 @@ public class IntroExercises {
         System.out.println(t.rightTriangle(3));
 
         // Test diamond exercises
+        DiamondExercises d = new DiamondExercises();
+
+        System.out.println(d.isoscelesTri(3));
+
+        System.out.println(d.diamond(3));
+        System.out.println(d.diamond(8));
+
+        System.out.println(d.diamondName(3, "Megan"));
     }
 }
